@@ -1,7 +1,7 @@
 Package.describe({
   name: 'dessix:livescript-compiler',
   summary: "LiveScript, a CoffeeScript descendant with improvements and new features.",
-  version: "0.1.5",
+  version: "0.2.0",
   git: "https://github.com/Dessix/Meteor-LiveScript.git"
 });
 
@@ -12,7 +12,7 @@ Package._transitional_registerBuildPlugin({
     'plugin/compileLiveScript.js'
   ],
   npmDependencies: {
-    "LiveScript": "1.3.1"
+    "livescript": "1.4.0"
   }
 });
 

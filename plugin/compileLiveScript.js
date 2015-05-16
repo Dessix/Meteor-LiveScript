@@ -13,7 +13,7 @@ var options;
                                                                      //
 var fs = Npm.require('fs');                                          // 1
 var path = Npm.require('path');                                      // 2
-var livescript = Npm.require('LiveScript');                          // 3
+var livescript = Npm.require('livescript');                          // 3
                                                                      // 4
 var handler = function (compileStep) {                               // 5
   var source = compileStep.read().toString('utf8');                  // 6
